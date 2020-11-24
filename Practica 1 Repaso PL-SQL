@@ -1,0 +1,34 @@
+Practica 1 Repaso PL-SQL
+
+TABLAS:
+
+
+Ya tenemos las tablas creadas con sus respectivas restricciones.
+Realiza un procedimiento llamado listadocuatromasprestados que nos muestre por pantalla un listado de los cuatro libros más prestados y los socios a los que han sido prestados con el siguiente formato:
+
+NombreLibro1	NumPrestamosLibro1 	GeneroLibro1
+	DNISocio1	FechaPrestamoalSocio1
+	...
+	DNISocion	FechaPrestamoalSocion
+
+NombreLibro2	NumPrestamosLibro2		GeneroLibro2
+	DNISocio1	FechaPrestamoalSocio1
+	...
+	DNISocion	FechaPrestamoalSocion
+
+NombreLibro3	NumPrestamosLibro3		GeneroLibro3
+	DNISocio1	FechaPrestamoalSocio1
+	...
+	DNISocion	FechaPrestamoalSocion
+
+NombreLibro4	NumPrestamosLibro4		GeneroLibro4
+	DNISocio1	FechaPrestamoalSocio1
+	...
+	DNISocion	FechaPrestamoalSocion
+  
+  El procedimiento debe gestionar adecuadamente las siguientes excepciones:
+
+    a) La tabla Libros está vacía.
+    b) La tabla Socios está vacía.
+    c) Hay menos de cuatro libros que hayan sido prestados.
+
